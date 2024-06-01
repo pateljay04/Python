@@ -35,15 +35,32 @@ print("variables!")
 
 # Global variables 
 
-a = "Good"
+# a = "Good"
 
-def function():
-    a = "Excellent"
-    print("you are " + a)
+# def function():
+#     a = "Excellent"
+#     print("you are " + a)
 
-function()
+# function()
 
-print("you are " + a)
+# print("you are " + a)
+
+def print_student_info(name, roll_number, class_section):
+  """Prints student information in a formatted way."""
+  print(f"Name: {name}")
+  print(f"Roll Number: {roll_number}")
+  print(f"Class: {class_section}")
+
+def main():
+  """Prompts the user for student information and prints it."""
+  name = input("Enter student name: ")
+  roll_number = int(input("Enter roll number: "))
+  class_section = input("Enter class section: ")
+
+  print_student_info(name, roll_number, class_section)
+
+if __name__ == "__main__":
+  main()
 
 
 
