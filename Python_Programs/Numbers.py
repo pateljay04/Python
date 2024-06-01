@@ -21,45 +21,46 @@
 # print("Division of Two Numbers is:",D)
 # print("Modulo(Remainder) of Two Numbers is:",E)
 
+# STUDENT PROGRAMME
 
-Student = input("Enter the Student Name: ")
+# Student = input("Enter the Student Name: ")
 
-Student_Rollno = int(input("Enter the Student Rollno: "))
+# Student_Rollno = int(input("Enter the Student Rollno: "))
 
-Sub1 = int(input("Enter the Marks for Telugu Subject: "))
+# Sub1 = int(input("Enter the Marks for Telugu Subject: "))
 
-Sub2 = int(input("Enter the Marks for Hindi Subject: "))
+# Sub2 = int(input("Enter the Marks for Hindi Subject: "))
 
-Sub3 = int(input("Enter the Marks for English Subject: "))
+# Sub3 = int(input("Enter the Marks for English Subject: "))
 
-Sub4 = int(input("Enter the Marks for Maths Subject: "))
+# Sub4 = int(input("Enter the Marks for Maths Subject: "))
 
-Sub5 = int(input("Enter the Marks for Science Subject: "))
+# Sub5 = int(input("Enter the Marks for Science Subject: "))
 
-Sub6 = int(input("Enter the Marks for Social Subject: "))
+# Sub6 = int(input("Enter the Marks for Social Subject: "))
 
-Total_marks = Sub1+Sub2+Sub3+Sub4+Sub5+Sub6
+# Total_marks = Sub1+Sub2+Sub3+Sub4+Sub5+Sub6
 
-Percentage = Total_marks/600*100
-print("Student Name:",Student)
-print("The Total marks of the Student is:",Total_marks)
-print("The Student Percentage is:",Percentage)
+# Percentage = Total_marks/600*100
+# print("Student Name:",Student)
+# print("The Total marks of the Student is:",Total_marks)
+# print("The Student Percentage is:",Percentage)
 
-if (Percentage>=90):
-    print("The Student secured with Grade o")
+# if (Percentage>=90):
+#     print("The Student secured with Grade o")
     
-elif(Percentage>=80):
-    print("The Student secured with Grade A")
-elif(Percentage>=70):
-    print("The Student secured withGrade B")
-elif(Percentage>=60):
-    print("The Student secured with Grade C")
-elif(Percentage>=50):
-    print("The Student secured with Grade D")
-elif(Percentage>=40):
-    print("The Student secured with Grade e")
-else:
-    print("Grade F is fail")
+# elif(Percentage>=80):
+#     print("The Student secured with Grade A")
+# elif(Percentage>=70):
+#     print("The Student secured withGrade B")
+# elif(Percentage>=60):
+#     print("The Student secured with Grade C")
+# elif(Percentage>=50):
+#     print("The Student secured with Grade D")
+# elif(Percentage>=40):
+#     print("The Student secured with Grade e")
+# else:
+#     print(" The student secured with Grade F is fail")
 
 
     
