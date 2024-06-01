@@ -33,6 +33,20 @@ print("variables!")
 # print("My Name is",A)
 
 
+# Global variables 
+
+a = "Good"
+
+def function():
+    a = "Excellent"
+    print("you are " + a)
+
+function()
+
+print("you are " + a)
+
+
+
 
 
 
